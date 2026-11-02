@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>SystemAudio</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Vortice.MediaFoundation">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Vortice.MediaFoundation.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGen.Runtime">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\SharpGen.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGen.Runtime.COM">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\SharpGen.Runtime.COM.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

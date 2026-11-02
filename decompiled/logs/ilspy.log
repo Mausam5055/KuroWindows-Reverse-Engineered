@@ -1,0 +1,8 @@
+[2026-11-02T19:04:30.065572] [INFO] Invoking ilspycmd (version 11.2.0.10050, engine ICSharpCode.Decompiler 11.2.0.10050)
+[2026-11-02T19:04:30.065572] [INFO] Decompiling DesktopStatus.dll -> csharp_source/DesktopStatus (1 type, 0 warnings)
+[2026-11-02T19:04:30.065572] [INFO] Decompiling ClientTelemetry.dll -> csharp_source/ClientTelemetry (103 types, 0 warnings)
+[2026-11-02T19:04:30.065572] [INFO] Decompiling DeviceIdentity.dll -> csharp_source/DeviceIdentity (67 types, 0 warnings)
+[2026-11-02T19:04:30.065572] [INFO] Decompiling DesktopUpdates.dll -> csharp_source/DesktopUpdates (31 types, 0 warnings)
+[2026-11-02T19:04:30.065572] [INFO] Decompiling SystemAudio.dll -> csharp_source/SystemAudio (58 types, 0 warnings)
+[2026-11-02T19:04:30.065572] [INFO] Decompiling KuroWindows.dll -> csharp_source/KuroWindows (951 types, 8943 methods, 0 errors)
+[2026-11-02T19:04:30.065572] [INFO] Project generation completed successfully across all 6 targets

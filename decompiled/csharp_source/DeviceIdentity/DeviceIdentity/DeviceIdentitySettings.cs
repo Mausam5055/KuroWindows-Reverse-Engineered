@@ -1,0 +1,5 @@
+using System;
+
+namespace DeviceIdentity;
+
+public sealed record DeviceIdentitySettings(string DeviceKeyName, string DeviceKeyRsaName, string PlatformCryptoProviderName, string DeviceProofPrefix, string[] DeviceKeyAcknowledgedStatuses, TimeSpan EndorsementCertificateBudget, TimeSpan HardwareFacetsBudget, TimeSpan CloudMetadataProbeTimeout, int HardwareFacetsMaxBytes, int EndorsementCertificateMaxBase64Chars, string DeviceAuthDirectory, string EndorsementCertificateCacheFileName, string EndorsementCertificateAttemptMarkerFileName, string IntelEndorsementCertificateServiceUrl, string AmdEndorsementCertificateServiceUrl);

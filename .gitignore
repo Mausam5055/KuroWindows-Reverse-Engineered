@@ -1,0 +1,13 @@
+# Temporary extraction directory (all assemblies and resources are preserved in decompiled/)
+extracted/
+
+# Redundant root installer copy (canonical original is preserved in decompiled/original/)
+/KuroWindows-win-Setup.exe
+
+# Build and IDE artifacts
+bin/
+obj/
+*.user
+.vs/
+.idea/
+*.suo

@@ -1,0 +1,221 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>KuroWindows</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Remove="KuroWindows\App.xaml" />
+    <ApplicationDefinition Include="KuroWindows\App.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="app.xaml" />
+    <Page Remove="KuroWindows.UI\ShellWindow.xaml" />
+    <Page Include="KuroWindows.UI\ShellWindow.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="ui/shellwindow.xaml" />
+    <Resource Remove="resources\kuro.ico" />
+    <Resource Remove="resources\status-attention.ico" />
+    <Resource Remove="resources\status-badge-attention.ico" />
+    <Resource Remove="resources\status-badge-idle.ico" />
+    <Resource Remove="resources\status-badge-privacy.ico" />
+    <Resource Remove="resources\status-badge-recording.ico" />
+    <Resource Remove="resources\status-idle.ico" />
+    <Resource Remove="resources\status-privacy.ico" />
+    <Resource Remove="resources\status-recording.ico" />
+    <Resource Include="resources\kuro.ico" LogicalName="resources/kuro.ico" />
+    <Resource Include="resources\status-attention.ico" LogicalName="resources/status-attention.ico" />
+    <Resource Include="resources\status-badge-attention.ico" LogicalName="resources/status-badge-attention.ico" />
+    <Resource Include="resources\status-badge-idle.ico" LogicalName="resources/status-badge-idle.ico" />
+    <Resource Include="resources\status-badge-privacy.ico" LogicalName="resources/status-badge-privacy.ico" />
+    <Resource Include="resources\status-badge-recording.ico" LogicalName="resources/status-badge-recording.ico" />
+    <Resource Include="resources\status-idle.ico" LogicalName="resources/status-idle.ico" />
+    <Resource Include="resources\status-privacy.ico" LogicalName="resources/status-privacy.ico" />
+    <Resource Include="resources\status-recording.ico" LogicalName="resources/status-recording.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DesktopUpdates">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\DesktopUpdates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="DesktopStatus">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\DesktopStatus.dll</HintPath>
+    </Reference>
+    <Reference Include="DeviceIdentity">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\DeviceIdentity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="ClientTelemetry">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\ClientTelemetry.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="SystemAudio">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\SystemAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes.AccessControl">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.IO.Pipes.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Velopack">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Velopack.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Versioning">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\NuGet.Versioning.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Windows.SDK.NET">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Microsoft.Windows.SDK.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Core">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="Vortice.MediaFoundation">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Vortice.MediaFoundation.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGen.Runtime">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\SharpGen.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.Primitives">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Windows.Forms.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Channels">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Threading.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.SystemEvents">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Microsoft.Win32.SystemEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.EventLog">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Diagnostics.EventLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Vortice.DXGI">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Vortice.DXGI.dll</HintPath>
+    </Reference>
+    <Reference Include="Vortice.Direct3D11">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Vortice.Direct3D11.dll</HintPath>
+    </Reference>
+    <Reference Include="Vortice.DirectX">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Vortice.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Vortice.Mathematics">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Vortice.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.AccessControl">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="WinRT.Runtime">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\WinRT.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Vortice.D3DCompiler">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Vortice.D3DCompiler.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Json">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.Http.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

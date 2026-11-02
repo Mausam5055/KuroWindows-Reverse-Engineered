@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="KuroWindows.UI.ShellWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Kuro" Width="800" Height="600" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="#FFFFFFFF" ShowInTaskbar="True" xmlns:ui="clr-namespace:KuroWindows.UI;assembly=KuroWindows">
+  <Grid Name="RootGrid">
+    <Border Name="FallbackPane" Visibility="Collapsed" Background="#FFFFFFFF" Padding="36">
+      <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" MaxWidth="380">
+        <TextBlock Text="Kuro could not open." FontSize="22" FontWeight="SemiBold" TextAlignment="Center" Margin="0,0,0,10" />
+        <TextBlock Name="FallbackText" Text="The desktop UI failed to initialize." FontSize="13" Foreground="#666" TextWrapping="Wrap" TextAlignment="Center" />
+        <TextBlock Text="Recording still works in the background. Your hours are safe." FontSize="12" Foreground="#999" TextWrapping="Wrap" TextAlignment="Center" Margin="0,8,0,0" />
+        <Button Name="FallbackRetryButton" Content="Try again" FontSize="13" Padding="22,8" Margin="0,20,0,0" HorizontalAlignment="Center" Click="OnFallbackRetryClick" />
+      </StackPanel>
+    </Border>
+    <Border Name="Cover" Background="#FFFFFFFF" />
+  </Grid>
+</Window>

@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>DeviceIdentity</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Text.Json">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Intrinsics">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Runtime.Intrinsics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.Primitives.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

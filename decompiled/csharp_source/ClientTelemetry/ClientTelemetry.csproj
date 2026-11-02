@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ClientTelemetry</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Collections">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Channels">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Threading.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Linq.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

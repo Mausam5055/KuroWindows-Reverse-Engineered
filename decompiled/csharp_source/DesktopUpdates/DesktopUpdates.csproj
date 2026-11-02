@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>DesktopUpdates</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Velopack">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\Velopack.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ClientTelemetry">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\ClientTelemetry.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Versioning">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\NuGet.Versioning.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>D:\Kuro and Loggy3\extracted\lib\app\System.Memory.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

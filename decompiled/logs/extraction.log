@@ -1,0 +1,6 @@
+[2026-11-02T19:04:30.065572] [INFO] Starting extraction of KuroWindows-win-Setup.exe (86,977,400 bytes)
+[2026-11-02T19:04:30.065572] [INFO] Identified Velopack Setup Stub. Embedded ZIP archive located at offset 1,262,248
+[2026-11-02T19:04:30.065572] [INFO] Found KuroWindows.nuspec (version 1.1.19, channel win, rid win-x64)
+[2026-11-02T19:04:30.065572] [INFO] Extracted 513 archive entries to temporary extraction root
+[2026-11-02T19:04:30.065572] [INFO] Successfully partitioned 6 application assemblies, 13 native binaries, 492 runtime assemblies, UI bundle, and localized satellites
+[2026-11-02T19:04:30.065572] [INFO] Extraction completed with 0 errors

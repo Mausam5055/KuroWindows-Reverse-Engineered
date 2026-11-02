@@ -1,0 +1,37 @@
+using System.Diagnostics;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.Versioning;
+using System.Security;
+using System.Security.Permissions;
+using System.Windows;
+using System.Windows.Resources;
+
+[assembly: ThemeInfo(ResourceDictionaryLocation.None, ResourceDictionaryLocation.SourceAssembly)]
+[assembly: AssemblyAssociatedContentFile("assets/splashscreen.png")]
+[assembly: AssemblyAssociatedContentFile("assets/square150x150logo.png")]
+[assembly: AssemblyAssociatedContentFile("assets/square310x310logo.png")]
+[assembly: AssemblyAssociatedContentFile("assets/square44x44logo.png")]
+[assembly: AssemblyAssociatedContentFile("assets/storelogo.png")]
+[assembly: AssemblyAssociatedContentFile("assets/wide310x150logo.png")]
+[assembly: AssemblyAssociatedContentFile("app.js")]
+[assembly: AssemblyAssociatedContentFile("kuro-app-icon.svg")]
+[assembly: AssemblyAssociatedContentFile("kuro-mark.svg")]
+[assembly: AssemblyAssociatedContentFile("colors_and_type.css")]
+[assembly: AssemblyAssociatedContentFile("communications.js")]
+[assembly: AssemblyAssociatedContentFile("geistmono-variable.woff2")]
+[assembly: AssemblyAssociatedContentFile("outfit-variable.ttf")]
+[assembly: AssemblyAssociatedContentFile("satoshi-variable.ttf")]
+[assembly: AssemblyAssociatedContentFile("index.html")]
+[assembly: AssemblyAssociatedContentFile("styles.css")]
+[assembly: AssemblyAssociatedContentFile("webview2loader.dll")]
+[assembly: AssemblyCompany("KuroWindows")]
+[assembly: AssemblyConfiguration("Release")]
+[assembly: AssemblyFileVersion("1.1.19.0")]
+[assembly: AssemblyInformationalVersion("1.1.19+af99c6e2a7000cd2d466fd18bfbd3f3f394ffa21")]
+[assembly: AssemblyProduct("KuroWindows")]
+[assembly: AssemblyTitle("KuroWindows")]
+[assembly: InternalsVisibleTo("KuroWindows.Tests")]
+[assembly: TargetPlatform("Windows10.0.22621.0")]
+[assembly: SupportedOSPlatform("Windows10.0.19041.0")]
+[assembly: AssemblyVersion("1.1.19.0")]

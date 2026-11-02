@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<metadata>
+<id>KuroWindows</id>
+<title>Kuro</title>
+<description>Kuro</description>
+<authors>Kuro</authors>
+<version>1.1.19</version>
+<channel>win</channel>
+<mainExe>KuroWindows.exe</mainExe>
+<os>win</os>
+<rid>win-x64</rid>
+<runtimeDependencies>webview2</runtimeDependencies>
+<shortcutLocations>Desktop,StartMenuRoot</shortcutLocations>
+<shortcutAmuid>velopack.KuroWindows</shortcutAmuid>
+<machineArchitecture>x64</machineArchitecture>
+</metadata>
+</package>
