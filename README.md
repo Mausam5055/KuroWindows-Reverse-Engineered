@@ -412,6 +412,7 @@ await sendCommand('retry_uploads');
 ## 7. Verification, Security & Integrity Confirmation
 
 - **Security & Privacy Audit:** See [`SECURITY_AND_PRIVACY_AUDIT.md`](SECURITY_AND_PRIVACY_AUDIT.md) for the complete static analysis on personal file access, credential masking limitations, unencrypted staging, and safety guidelines.
+- **Bug & Defect Analysis:** See [`BUGS.md`](BUGS.md) for the complete technical catalog of 10 confirmed software bugs, race conditions, memory/handle leaks, and failure scenarios.
 - **Decompiled Source Verification:** The decompiled source code in [`decompiled/`](file:///d:/Kuro%20and%20Loggy3/decompiled) has been verified against the original `KuroWindows-win-Setup.exe` binary:
 - **Archive Extraction:** All 513 container entries extracted with 0 missing files.
 - **Decompilation Success:** 6 out of 6 C# projects decompiled with 0 errors across 1,218 types and 10,480+ methods.

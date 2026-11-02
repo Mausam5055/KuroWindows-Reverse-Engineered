@@ -94,6 +94,7 @@ This documentation suite provides deep technical visibility into every aspect of
 | **[`DATABASE_SCHEMA.md`](DATABASE_SCHEMA.md)** | File formats, segment manifests, sidecars, event schemas (45 fields), and credential stores. |
 | **[`AUTHENTICATION_SECURITY.md`](AUTHENTICATION_SECURITY.md)** | OAuth PKCE, TPM 2.0 attestation, signed device proofs, DPAPI, and CSP sandboxing. |
 | **[`SECURITY_AND_PRIVACY_AUDIT.md`](SECURITY_AND_PRIVACY_AUDIT.md)** | Comprehensive audit of file system access, privacy leak risks, vulnerabilities, and safety verdict. |
+| **[`BUGS.md`](BUGS.md)** | Exhaustive code-level audit of confirmed software bugs, race conditions, memory/handle leaks, and failure scenarios. |
 | **[`INTEGRATIONS.md`](INTEGRATIONS.md)** | External cloud services (Supabase, AWS S3/API Gateway), TPM PKI authorities, native DLLs. |
 | **[`CORE_ALGORITHMS.md`](CORE_ALGORITHMS.md)** | Precision Touchpad gesture machine, DoH failover, adaptive bitrates, contention hashing. |
 | **[`CONFIGURATION.md`](CONFIGURATION.md)** | Complete listing of environment variables, registry entries, timeouts, and cache keys. |
